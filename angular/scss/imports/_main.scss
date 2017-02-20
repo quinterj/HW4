@@ -1,0 +1,53 @@
+html {
+  box-sizing: border-box;
+  background: $badass;
+  font-family: 'Source Sans Pro', Helvetica, Clean, sans-serif;
+  font-size: 100%;
+  font-weight: 400;
+}
+
+body {  
+  margin: 0;
+}
+
+a {
+  color: $link;
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.site-wrap {
+  max-width: 780px;
+  margin: 40px auto;
+  background: white;
+  padding: 40px;
+  box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.05);
+  transform: scale(0.98);
+  transition: transform 0.5s; 
+  body.fixed-nav & {
+    transform: scale(1); 
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
